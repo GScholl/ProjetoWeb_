@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Trip-sans";
+  src: url(/font/TripSans-Regular.ttf);
+}
+* {
+  font-family: "Trip-sans", sans-serif;
+  transition: 0.2s all;
+}
+body{
+  height: 150vh;;
+}
+.logo {
+  height: 60px;
+}
+.item-1 {
+  background-image: url(/img/1.png);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.item-2 {
+  background-image: url(/img/2.png);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.item-3 {
+  background-image: url(/img/2.png);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

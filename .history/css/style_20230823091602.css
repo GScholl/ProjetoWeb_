@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Trip-sans";
+  src: url(/font/TripSans-Regular.ttf);
+}
+.logo{ 
+
+  height: 60px; 
+} 

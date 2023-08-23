@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Trip-sans";
+  src: url(/font/TripSans-Regular.ttf);
+}
+*{
+  font-family: "Trip-sans",sans-serif;
+  transition: .2s all;
+}
+.logo{ 
+
+  height: 60px; 
+} 
+.item-1{
+
+}
+.item-2{
+
+}
+.item-3{
+  
+}
