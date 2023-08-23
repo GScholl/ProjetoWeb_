@@ -32,24 +32,13 @@ nav {
 .logo {
   height: 75px;
 }
-.agenda-dia{
-  width: 80%;
-}
-.card-evento{
-   background-color: var(--cinza);
-   border-radius: 20px;
-    box-shadow: rgba(2, 250, 10, 0.1) 0px 4px 6px -1px,
-    rgba(6, 255, 2, 0.19) 0px 2px 4px -1px;
-}
-
 .evento{
-
-  
-  color: white;
+  height: 20vh;
+  background-color: var(--cinza);
 
 }
-#section-agenda{
-  min-height: 60vh;
+.section-agenda{
+  min-height: 50vh;
 }
 .bg-preto-claro{
   background-color: var(--preto-claro);

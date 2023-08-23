@@ -32,19 +32,19 @@ nav {
 .logo {
   height: 75px;
 }
-.agenda-dia{
+.agenda-dia-1{
   width: 80%;
 }
 .card-evento{
    background-color: var(--cinza);
    border-radius: 20px;
-    box-shadow: rgba(2, 250, 10, 0.1) 0px 4px 6px -1px,
-    rgba(6, 255, 2, 0.19) 0px 2px 4px -1px;
 }
-
+.slick-slide{
+  height: 50vh!important;
+}
 .evento{
-
-  
+  min-height: 50vh;
+ 
   color: white;
 
 }
