@@ -1,3 +1,33 @@
+const contadorPeloIdElemento = (
+  id_elemento,
+  minimo,
+  maximo,
+  tempo_latencia
+) => {
+  let contador = minimo;
+
+  const intervalId = setInterval(() => {
+    $(id_elemento).text("+" + contador);
+
+    if (contador === maximo) {
+      clearInterval(intervalId);
+    }
+
+    contador++;
+  }, tempo_latencia); // Intervalo de 100 milissegundos
+};
+
+$(window).on("scroll", function () {
+  let posicaoScroll = $(this).scrollTop();
+  if(posicaoScroll > 200){
+
+    contadorPeloIdElemento("#indicador-palestrante", 0, 12, 500);
+    contadorPeloIdElemento("#indicador-palestras", 0, 25, 250);
+    contadorPeloIdElemento("#indicador-participantes", 0, 1690, 1);
+
+  }
+  
+});
 
 $(".agenda-dia").slick({
   dots: true,
@@ -20,7 +50,6 @@ $(".agenda-dia").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-       
       },
     },
     {
@@ -35,4 +64,3 @@ $(".agenda-dia").slick({
     // instead of a settings object
   ],
 });
- 

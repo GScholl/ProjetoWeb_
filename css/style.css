@@ -9,6 +9,21 @@
 .text-green {
   color: var(--verde);
 }
+.bg-overlay{
+  background-image: url(/img/fundo-indicadores.png);
+  min-height: 30vh;
+  background-attachment: fixed;
+
+}
+.h-30{
+
+  min-height:30vh;
+}
+.blur{
+  min-height:30vh;
+  background-color: #0000005e;
+  backdrop-filter: blur(7px);
+}
 @font-face {
   font-family: "Trip-sans";
   src: url(/font/TripSans-Regular.ttf);
@@ -21,14 +36,29 @@ body {
   height: 150vh;
   background-color: var(--cinza-escuro);
 }
-
-.bg-black {
-  background-color: #000;
-}
 nav {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+.img-mobile{
+  display: none;
+}
+.img-desktop{
+  display: initial;
+}
+@media screen and (max-width:992px) {
+  .img-mobile{
+    display: initial;
+  }
+  .img-desktop{
+    display: none;
+  }
+}
+
+.bg-black {
+  background-color: #000;
+}
+
 .logo {
   height: 75px;
 }
