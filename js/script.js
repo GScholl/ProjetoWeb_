@@ -39,7 +39,17 @@ window.setTimeout(function(){
 
   $("#mensagem-sucesso").slideUp();
 
-},8000)
+},8000);
+
+
+
+
+
+});
+$(".nav-item").on("click",function(){
+ 
+$(".nav-item").removeClass("item-ativo");    
+$(this).addClass("item-ativo")
 
 
 });

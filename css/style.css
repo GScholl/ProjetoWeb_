@@ -73,6 +73,41 @@ footer{
 
   fill: var(--verde);
 }
+.hover-bar{
+  transition: all .8s;
+  width:0;
+  height:0;
+  background-color: var(--verde);
+}
+.nav-link{
+  color: white;
+}
+.nav-item:hover{
+
+  
+  .nav-link{
+    color: var(--verde);
+    font-weight: bold;
+  }
+  
+  .hover-bar{
+   height:2px; 
+   width: 100%;
+  }
+}
+
+.item-ativo{
+  .hover-bar{
+    height:2px; 
+    width: 100%;
+   }
+   .nav-link{
+
+    color: var(--verde);
+    font-weight: bold;
+   }
+
+}
 #botao-toggler:focus{
 
 
