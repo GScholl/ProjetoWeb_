@@ -26,7 +26,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" id="botao-toggler" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
         </button>
 
         <div
@@ -133,7 +133,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <section class="bg-escuro">
+    <section class="bg-escuro pb-3">
       <div class="container mb-3 w-75">
         <div class="row">
           <div class="col-12 mb-2">
@@ -209,7 +209,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-escuro">
+    <section class="bg-escuro pt-2">
       <div class="container">
         <h1 class="text-center mb-3 text-white mt-3">
           <code class="text-white"><</code>
@@ -831,7 +831,7 @@
       </div>
     </section>
 
-    <section class="bg-preto-claro" id="section-agenda">
+    <section class="bg-preto-claro pb-4" id="section-agenda">
       <div class="container d-flex flex-column align-items-center">
         <h1 class="text-center mb-3 text-white pt-5 pb-5">
           <code class="text-white"><</code>
@@ -946,6 +946,87 @@
         </div>
       </div>
     </section>
+    <section>
+      <div class="container">
+        <h1 class="text-center mb-3 text-white pt-5 pb-5">
+          <code class="text-white"><</code>
+          <span class="text-green">Inscreva-se</span> No Evento<b
+            class="text-green"
+          ></b>
+          <code class="text-white">/></code>
+        </h1>
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 col-md-12">
+            <div class="card-evento mb-4 p-4">
+              <h5 class="text-white text-center">Preencha seus Dados que enviaremos um link para pagamento em seu e-mail</h4>
+              <form action="" id="form-inscricao">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="form-group mt-1">
+                      <label class="text-green" for="">Nome</label>
+                      <input type="text" class="form-control" required name="nome" id="nome" aria-describedby="helpId" placeholder="Digite seu Nome">
+                      
+                    </div>
+
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="form-group mt-1">
+                      <label class="text-green" for="">Sobrenome</label>
+                      <input type="text" class="form-control" name="sobrenome" id="sobrenome" aria-describedby="helpId" placeholder="Digite seu Sobrenome">
+                      
+                    </div>
+
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="form-group mt-1">
+                      <label class="text-green" for="">E-mail</label>
+                      <input type="email" class="form-control" name="email" id="email"  placeholder="Digite seu E-mail">
+                      
+                    </div>
+
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="form-group mt-1">
+                      <label class="text-green" for="">Telefone</label>
+                      <input type="text" class="form-control" name="telefone" id="telefone"  placeholder="Digite seu Telefone">
+                      
+                    </div>
+
+                  </div>
+                  <div class="col-12 d-flex flex-column align-items-center mt-4">
+                    <button class="btn btn-outline-success"><span class="text-white" id="texto-botao">Inscrever-se</span></button>
+                  </div>
+                  <div class="mt-3 p-3 text-white" id="mensagem-sucesso">
+                    <span>Inscrição efetuada com sucesso!<br>Logo Enviaremos um E-mail de contato</span>
+                  </div>
+                </div> 
+                
+              </form>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-preto-claro pt-4 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center  col-sm-12"> <a class="navbar-brand" href="#"
+            ><img src="/img/DEV+.png" alt="logotipo da conferência" class="logo"
+          /></a></div>
+          <div class="col-lg-6 col-sm-12  d-flex flex-column align-items-center justify-content-center ">
+            <ul >
+              <li class="text-green nav-item style-none">contato@devplus.com.br</li>
+              <li class="text-green nav-item style-none">(49) 99123-3123</li>
+              <li class="text-green nav-item style-none">Rua do Comércio,92,</li>
+              <li class="text-green nav-item style-none">Caçador-SC</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    </footer>
     <script src="/js/jquery/jquery-3.7.0.min.js"></script>
     <script src="/js/jquery/jquery-migrate-1.4.1.min.js"></script>
     <script src="/Bootstrap/js/bootstrap.bundle.min.js"></script>

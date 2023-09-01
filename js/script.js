@@ -19,14 +19,29 @@ const contadorPeloIdElemento = (
 
 $(window).on("scroll", function () {
   let posicaoScroll = $(this).scrollTop();
-  if(posicaoScroll > 200){
-
+  if (posicaoScroll > 200) {
     contadorPeloIdElemento("#indicador-palestrante", 0, 12, 500);
     contadorPeloIdElemento("#indicador-palestras", 0, 25, 250);
     contadorPeloIdElemento("#indicador-participantes", 0, 1690, 1);
-
   }
+});
+
+$("#form-inscricao").on("submit", function (e) {
+  e.preventDefault();
+  $("#texto-botao").append(`&nbsp;<div class="spinner-border text-white spinner-border-sm" role="status">
   
+</div>`);
+window.setTimeout(function(){
+  $("#texto-botao").html(`Inscrever-se`);
+  $("#mensagem-sucesso").slideDown();
+},1000);
+window.setTimeout(function(){
+
+  $("#mensagem-sucesso").slideUp();
+
+},8000)
+
+
 });
 
 $(".agenda-dia").slick({
