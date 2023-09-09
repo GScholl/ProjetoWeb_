@@ -226,7 +226,7 @@ footer{
 .card-palestrante {
   color: white;
   display: flex;
-  height: 35vh;
+  height: 40vh;
   width: 100%;
   background-color: var(--cinza);
   box-shadow: rgba(2, 250, 10, 0.1) 0px 4px 6px -1px,

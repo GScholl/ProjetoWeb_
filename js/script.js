@@ -13,7 +13,7 @@ const contadorPeloIdElemento = (
       clearInterval(intervalId);
     }
 
-    contador++;
+    contador++; 
   }, tempo_latencia); // Intervalo de 100 milissegundos
 };
 
